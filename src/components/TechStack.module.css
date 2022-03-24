@@ -1,0 +1,166 @@
+.container {
+  background: linear-gradient(180deg, whitesmoke, rgba(0, 143, 17, 0.9) 100%);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  height: 85%;
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+  height: 10%;
+  margin: 0;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--matrix-green-black);
+  overflow: hidden;
+  z-index: 2;
+}
+.response {
+  margin: 0;
+  width: 100%;
+  height: 5%;
+  padding-left: 3.33%;
+  font-size: 2rem;
+  color: var(--matrix-green-black);
+  color: var(--matrix-light-green);
+  font-weight: bolder;
+  text-shadow: -1px 1px 3px var(--matrix-green-black);
+  animation: response-anim 2s 10.5s forwards;
+  visibility: hidden;
+}
+
+@keyframes response-anim {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+/* left */
+
+.skill-response-data {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
+
+/* skill-list */
+
+.span {
+  display: inline-block;
+}
+
+/* comm-prompt */
+.comm-prompt {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  background-image: url("../assests/com.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 0%;
+  height: 0%;
+
+  box-shadow: inset 0 0 0 1000px rgba(0, 255, 65, 0.2);
+  z-index: 4;
+  animation: promptanim-in 3.5s ease-in forwards,
+    promptanim-out 2s 6.5s ease-out forwards;
+}
+
+@keyframes promptanim-in {
+  0% {
+    width: 0%;
+    height: 0%;
+  }
+  100% {
+    width: 90%;
+    height: 70%;
+  }
+}
+
+@keyframes promptanim-out {
+  0% {
+    width: 90%;
+    height: 50%;
+  }
+  100% {
+    width: 0%;
+    height: 0%;
+  }
+}
+
+/* typing effect */
+.typing-container {
+  display: inline;
+  font-family: monospace;
+  color: var(--matrix-light-green);
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+  width: 95%;
+  height: 30%;
+  z-index: 4;
+}
+.typed-out {
+  overflow: hidden;
+
+  white-space: nowrap;
+  font-size: 1.4rem;
+  width: 0;
+}
+
+.line {
+  animation: typing 4s 3.5s steps(39, end) forwards, blinky 0.8s 3.5s 2 forwards,
+    hide 1s 5.5s 1 forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 15%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing1 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes hide {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes blinky {
+  0% {
+    border-color: transparent;
+  }
+  99% {
+    border-right: 0.15em solid var(--matrix-green);
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+/* typing-effect end */

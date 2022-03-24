@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --matrix-black: rgb(13, 2, 8);
+  --matrix-green-black: rgb(0, 59, 0);
+  --matrix-green: rgb(0, 143, 17);
+  --matrix-light-green: #00ff41;
+  --matrix-light-green-opaque: rgba(0, 255, 65, 0.6);
+  --matrix-black-opaque: rgba(13, 2, 8, 0.5);
+  --matrix-green-linear-gradient: linear-gradient(
+    180deg,
+    var(--matrix-green-black),
+    var(--matrix-black) 100%
+  );
+}
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: whitesmoke;
+}
+
+@font-face {
+  font-family: "MyWebFont";
+  src: url("./assests/matrix.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "spotnik";
+  src: url("./assests/Spotnikdemo-K7dpy.ttf") format("truetype");
+}

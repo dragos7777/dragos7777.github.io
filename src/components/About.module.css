@@ -1,0 +1,147 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: var(--matrix-green-linear-gradient);
+  box-shadow: inset 0 0 0 1000px rgba(0, 255, 65, 0.2);
+  overflow: hidden;
+  color: whitesmoke;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.left-tag {
+  background: gray url("../assests/left_tag.png") no-repeat center;
+  width: 33%;
+  height: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 255, 65, 0.2);
+}
+
+.right-tag {
+  background: gray url("../assests/right_tag.png") no-repeat center;
+  width: 67%;
+  height: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 255, 65, 0.2);
+}
+
+.move-left {
+  transform: translateX(-70%);
+  transition: transform 5s;
+}
+.move-left-back {
+  transform: translateX(0%);
+  transition: transform 2s;
+}
+
+.move-right {
+  transform: translateX(83%);
+  transition: transform 5s;
+}
+
+.move-right-back {
+  transform: translateX(0%);
+  transition: transform 2s;
+}
+
+/* typewriter */
+
+/* typing effect */
+.typing-container {
+  font-size: 3rem;
+  display: inline-block;
+  color: var(--matrix-light-green);
+  position: absolute;
+  bottom: 40px;
+  right: 22px;
+  z-index: 4;
+}
+.typed-out {
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: monospace;
+  border: 0.05em solid transparent;
+  width: 0;
+  animation: typing 3s 2s steps(4, end) forwards,
+    blink 0.8s 2s forwards infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+    height: 0;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+@keyframes blink {
+  from {
+    border-right: 0.1em solid transparent;
+  }
+  to {
+    border-right: 0.1em solid var(--matrix-green);
+  }
+}
+/* typing-effect end */
+
+/* About-content */
+.about-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  top: 100px;
+  left: 25%;
+
+  width: 50%;
+  height: 70%;
+}
+
+.about-content .title {
+  font-family: "spotnik";
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.about-content .text {
+  font-family: "spotnik";
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.4rem;
+  text-indent: 4rem;
+  margin: 2rem;
+}
+
+.scale-about-content {
+  transform: scale(1.25);
+  transition: transform 4s 0.5s;
+}
+
+.scale-about-content-back {
+  transform: scale(1);
+  transition: transform 2s 0.5s;
+}
+
+.link {
+  color: var(--matrix-light-green);
+  text-decoration: none;
+}
+
+.span {
+  font-family: Helvetica;
+}
+
+.flag {
+  height: 1rem;
+}
+
+.car {
+  width: 1.5rem;
+  display: inline;
+}

@@ -1,0 +1,18 @@
+.nav-list {
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+.container {
+  scroll-behavior: smooth;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-list {
+    display: none;
+  }
+}

@@ -1,0 +1,114 @@
+.container {
+  background: linear-gradient(180deg, whitesmoke, rgba(0, 143, 17, 0.9) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.title {
+  font-family: "spotnik";
+  width: 100%;
+  height: 10%;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin: 0;
+  padding-top: 15px;
+  background: -webkit-linear-gradient(
+    var(--matrix-green),
+    var(--matrix-green-black)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+}
+
+.tetris-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tetris-img-container {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tetris-img {
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+  border: 5px ridge rgba(7, 7, 7, 0.33);
+}
+
+.tetris-img:hover {
+  transform: scale(1.25);
+  transition: transform 2s;
+  overflow: hidden;
+}
+
+.tetris-text {
+  height: 30%;
+  width: 90%;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  color: whitesmoke;
+}
+
+.stonk-container {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.stonk-img-container {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stonk-img {
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+  border: 5px ridge rgba(7, 7, 7, 0.33);
+}
+
+.stonk-img:hover {
+  transform: scale(1.25);
+  transition: transform 2s;
+  overflow: hidden;
+}
+
+.stonk-text {
+  height: 30%;
+  width: 90%;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: whitesmoke;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}

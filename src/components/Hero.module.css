@@ -10,6 +10,17 @@
   height: 100%;
 }
 
+.glass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.4);
+  filter: blur(5px);
+}
+
 .canvas {
   position: absolute;
   top: 0;
@@ -20,7 +31,6 @@
 }
 
 .img-container {
-  position: relative;
   width: fit-content;
   height: fit-content;
   z-index: 4;
@@ -33,15 +43,6 @@
   border-radius: 25px;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  height: 362px;
-  width: 441px;
-  box-shadow: inset 0 0 0 1000px rgba(0, 255, 65, 0.2);
-  z-index: 4;
-}
-
 .profile::after {
   content: "";
   width: fit-content;
@@ -52,7 +53,7 @@
 .text-container {
   width: 70%;
   height: 25%;
-  background-color: rgba(0, 0, 0, 0.2);
+
   text-align: center;
   z-index: 4;
 }
@@ -72,6 +73,7 @@
 
 .button-container {
   display: flex;
+
   align-items: center;
 }
 .button {
@@ -93,4 +95,29 @@
   background-color: rgb(255, 0, 0);
   -webkit-text-fill-color: black;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+  }
+  .profile {
+    width: 100%;
+    height: 90%;
+  }
+  .img-container {
+    height: 33%;
+  }
+
+  .button-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-style {
+    font-size: 1.25rem;
+  }
 }

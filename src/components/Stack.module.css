@@ -54,6 +54,7 @@
 
 .title {
   color: whitesmoke;
+  text-align: center;
 }
 
 .inner {
@@ -153,8 +154,16 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .logo {
     height: 60%;
+  }
+
+  .title {
+    font-size: 0.8rem;
+  }
+
+  .back {
+    font-size: 0.8rem;
   }
 }

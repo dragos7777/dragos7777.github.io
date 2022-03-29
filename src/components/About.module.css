@@ -115,7 +115,7 @@
   letter-spacing: 0.1rem;
   word-spacing: 0.4rem;
   text-indent: 4rem;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .scale-about-content {
@@ -144,4 +144,59 @@
 .car {
   width: 1.5rem;
   display: inline;
+}
+
+@media only screen and (max-width: 1200px) {
+  .about-content .text {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 1rem 0;
+    text-indent: 0.75rem;
+    text-align: center;
+  }
+  .typing-container {
+    font-size: 2.5rem;
+    display: inline-block;
+    color: var(--matrix-light-green);
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+    z-index: 4;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .about-content {
+    width: 55%;
+    left: 22.5%;
+  }
+  .about-content .title {
+    margin-bottom: 1rem;
+  }
+  .about-content .text {
+    font-size: 0.6rem;
+    line-height: 1rem;
+    margin: 0.5rem 0;
+    text-indent: 0.75rem;
+    text-align: center;
+  }
+  .flag {
+    height: 0.5rem;
+  }
+  .car {
+    width: 1rem;
+  }
+
+  .left-tag {
+    background: rgba(0, 255, 65, 0.1);
+  }
+
+  .right-tag {
+    background: rgba(0, 255, 65, 0.1);
+  }
+
+  .typing-container {
+    font-size: 1.75rem;
+    bottom: -15px;
+    right: 45px;
+  }
 }

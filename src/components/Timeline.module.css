@@ -105,3 +105,43 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media only screen and (max-width: 800px) {
+  .right-title {
+    font-family: "spotnik";
+    height: 10%;
+    width: 100%;
+  }
+  .right-title p {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    margin-left: -0.7rem;
+    background: -webkit-linear-gradient(
+      var(--matrix-green),
+      var(--matrix-green-black)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+  }
+
+  .left-title {
+    font-family: "spotnik";
+    height: 10%;
+    width: 100%;
+  }
+
+  .left-title p {
+    font-size: 1.25rem;
+    text-align: right;
+    font-weight: bolder;
+    margin-right: -0.75rem;
+    background: -webkit-linear-gradient(whitesmoke, gray);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+  }
+  .information-detail {
+    font-size: 1rem;
+  }
+}

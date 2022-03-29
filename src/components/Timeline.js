@@ -5,6 +5,7 @@ import BOSCH from "../assests/bosch.svg";
 import UBB from "../assests/UBB.svg";
 import JKU from "../assests/JKU.png";
 import React from "react";
+
 const info = {
   id1: {
     skills: [

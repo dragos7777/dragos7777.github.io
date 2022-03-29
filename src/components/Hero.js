@@ -4,11 +4,10 @@ import Profile from "../assests/profile.png";
 import { saveAs } from "file-saver";
 import React from "react";
 const matrixCanvas = (canvas) => {
-  let matrix =
-    "00101010101010100101110100110101001010101001010101010100001010101001010110010110011101100010101001111001010010100011001";
+  let matrix = "01";
   matrix = matrix.split("");
   let ctx = canvas.current.getContext("2d");
-  let font_size = 16;
+  let font_size = 15;
   let columns = canvas.current.width / font_size; //number of columns for the rain
   //an array of drops - one per column
   let drops = [];
@@ -59,9 +58,9 @@ const Hero = (props) => {
 
   return (
     <div className={styles.container}>
+      <div className={styles.glass}></div>
       <canvas className={styles.canvas} ref={canvas} />{" "}
       <div className={styles["img-container"]}>
-        <div className={styles.overlay}></div>
         <img src={Profile} alt="Profile" className={styles.profile}></img>
       </div>
       <div className={styles["text-container"]}>

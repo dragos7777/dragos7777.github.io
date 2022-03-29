@@ -37,14 +37,13 @@ const TimelineItem = (props) => {
             isActive ? styles["text-style-is-active"] : ""
           }`}
         >
-          {" "}
-          {props.text}{" "}
-          <span
-            className={`${styles["nav-item"]} ${
-              isActive ? styles["is-active"] : ""
-            }`}
-          ></span>{" "}
+          {props.text}
         </p>
+        <span
+          className={`${styles["nav-item"]} ${
+            isActive ? styles["is-active"] : ""
+          }`}
+        ></span>
         <p className={styles["year-style"]}>{props.year}</p>
       </div>
     </div>

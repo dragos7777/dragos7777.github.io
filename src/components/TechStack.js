@@ -16,7 +16,7 @@ import SOLIDITY from "../assests/solidity.svg";
 import MATLAB from "../assests/matlab.png";
 
 const frontend = [
-  { logo: JSLogo, text: "JAVASCRIPT" },
+  { logo: JSLogo, text: "JAVA SCRIPT" },
   { logo: HTML, text: "HTML" },
   { logo: CSS, text: "CSS" },
   { logo: REACT, text: "REACT" },

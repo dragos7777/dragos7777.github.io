@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.aae0bf05.chunk.css",
-  "main.js": "/static/js/main.e7d4be8c.chunk.js",
-  "main.js.map": "/static/js/main.e7d4be8c.chunk.js.map",
+  "main.css": "/static/css/main.cd5c5069.chunk.css",
+  "main.js": "/static/js/main.5c6587c2.chunk.js",
+  "main.js.map": "/static/js/main.5c6587c2.chunk.js.map",
   "static/js/1.8469a71c.chunk.js": "/static/js/1.8469a71c.chunk.js",
   "static/js/1.8469a71c.chunk.js.map": "/static/js/1.8469a71c.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -15,7 +15,7 @@
   "static/media/bosch.svg": "/static/media/bosch.c1ad15b6.svg",
   "static/media/UBB.svg": "/static/media/UBB.ed7f14fa.svg",
   "static/media/windows.svg": "/static/media/windows.0b8d23e5.svg",
-  "static/media/index.css": "/static/media/matrix.fb0576c1.ttf",
+  "static/media/index.css": "/static/media/Spotnikdemo-K7dpy.5d070eae.ttf",
   "static/media/uk.b9a2ba74.png": "/static/media/uk.b9a2ba74.png",
   "static/media/germany.cc670a05.png": "/static/media/germany.cc670a05.png",
   "static/media/romania.223d404b.png": "/static/media/romania.223d404b.png",
@@ -33,8 +33,8 @@
   "static/media/git.7d664489.png": "/static/media/git.7d664489.png",
   "static/media/matlab.c5556ba3.png": "/static/media/matlab.c5556ba3.png",
   "static/media/icons.619fd11d.jpg": "/static/media/icons.619fd11d.jpg",
-  "static/css/main.aae0bf05.chunk.css.map": "/static/css/main.aae0bf05.chunk.css.map",
+  "static/css/main.cd5c5069.chunk.css.map": "/static/css/main.cd5c5069.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.bb214ea8cd40e96884df237b3a3a7ba8.js": "/precache-manifest.bb214ea8cd40e96884df237b3a3a7ba8.js",
+  "precache-manifest.8bb2ed5e36c6c44ba726b6182edf0c5b.js": "/precache-manifest.8bb2ed5e36c6c44ba726b6182edf0c5b.js",
   "service-worker.js": "/service-worker.js"
 }

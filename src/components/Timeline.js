@@ -20,8 +20,8 @@ const info = {
     description: ["bullet2", "bullet2", "bullet2"],
   },
   id3: {
-    skills: ["bullet3", "bullet3", "bullet3"],
-    description: ["bullet3", "bullet3", "bullet3"],
+    skills: ["bullet3", "bullet3", "bullet3", "bullet3"],
+    description: ["bullet3", "bullet3", "bullet3", "bullet3"],
   },
 };
 
@@ -38,10 +38,14 @@ const Timeline = (props) => {
   }
 
   const descrptionList = Array(...info[isActive].description).map((item) => (
-    <p key={Math.random()}>{"- " + item}</p>
+    <p className={styles["description-element"]} key={Math.random()}>
+      {"- " + item}
+    </p>
   ));
   const skillsList = Array(...info[isActive].skills).map((item) => (
-    <p key={Math.random()}>{"- " + item}</p>
+    <p className={styles["description-element"]} key={Math.random()}>
+      {"- " + item}
+    </p>
   ));
   return (
     <div className={styles.container}>

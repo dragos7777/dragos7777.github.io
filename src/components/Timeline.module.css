@@ -105,6 +105,11 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.description-element {
+  text-align: left;
+  margin: 15px;
+  padding-left: 20px;
+}
 
 @media only screen and (max-width: 800px) {
   .right-title {
@@ -143,5 +148,10 @@
   }
   .information-detail {
     font-size: 1rem;
+  }
+
+  .description-element {
+    font-size: 0.9rem;
+    padding-left: 10px;
   }
 }

@@ -11,7 +11,7 @@ const Project = (props) => {
           <p className={styles.title}>{"TETRIS"}</p>
           <div className={styles["tetris-img-container"]}>
             <a
-              href="https://www.w3schools.com/"
+              href="https://dragos7777.github.io/tetris/"
               target="_blank"
               rel="noreferrer"
             >
@@ -26,7 +26,7 @@ const Project = (props) => {
           <p className={styles.title}>{"VIRTUAL STONKS"}</p>
           <div className={styles["stonk-img-container"]}>
             <a
-              href="https://www.w3schools.com/"
+              href="https://dragos7777.github.io/virtual-stonks/"
               target="_blank"
               rel="noreferrer"
             >

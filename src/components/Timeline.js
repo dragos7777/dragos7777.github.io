@@ -84,7 +84,7 @@ const Timeline = (props) => {
         <div className={styles["timeline-list"]}>
           <TimelineItem
             year={"2019-2022"}
-            text={"  Software Engineer at Bosch Cluj"}
+            text={" Software Engineer at Bosch"}
             scrolledInto={scrolledInto}
             isActive={isActive}
             onItemClick={onItemClick}
@@ -94,7 +94,7 @@ const Timeline = (props) => {
           />
           <TimelineItem
             year={"2017-2018"}
-            text={"   Erasmus at JKU Linz"}
+            text={" Erasmus at JKU Linz"}
             scrolledInto={scrolledInto}
             isActive={isActive}
             onItemClick={onItemClick}
@@ -104,7 +104,7 @@ const Timeline = (props) => {
           />
           <TimelineItem
             year={"2016-2020"}
-            text={"  Bachelor's Degree at UBB Cluj"}
+            text={" Bachelor's Degree at UBB Cluj"}
             scrolledInto={scrolledInto}
             isActive={isActive}
             onItemClick={onItemClick}

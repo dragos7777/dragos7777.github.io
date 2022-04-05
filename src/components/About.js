@@ -37,7 +37,16 @@ const About = (props) => {
             rel="noreferrer"
           >
             problem
-          </a>
+          </a>{" "}
+          or{" "}
+          <span
+            onClick={() => {
+              props.scroll();
+            }}
+            className={styles.link}
+          >
+            projects
+          </span>
           <span className={styles.span}>.</span>
         </p>
         <p className={styles.text}>

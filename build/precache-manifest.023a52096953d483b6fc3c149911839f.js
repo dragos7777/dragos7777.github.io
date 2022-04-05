@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "5c6587c2abadcfd52ad8",
-    "url": "/static/css/main.cd5c5069.chunk.css"
+    "revision": "ffd500a259a13ffc14f7",
+    "url": "/static/css/main.10152f8f.chunk.css"
   },
   {
-    "revision": "5c6587c2abadcfd52ad8",
-    "url": "/static/js/main.5c6587c2.chunk.js"
+    "revision": "ffd500a259a13ffc14f7",
+    "url": "/static/js/main.ffd500a2.chunk.js"
   },
   {
-    "revision": "8469a71ca1082ce22176",
-    "url": "/static/js/1.8469a71c.chunk.js"
+    "revision": "0e23339deae716131ee0",
+    "url": "/static/js/1.0e23339d.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -38,6 +38,10 @@ self.__precacheManifest = [
   {
     "revision": "1848f2ab39f39ca1c64b295642b42a15",
     "url": "/static/media/solidity.1848f2ab.svg"
+  },
+  {
+    "revision": "8d9ffb0bd488386a946ef7cb87c0e391",
+    "url": "/static/media/next.8d9ffb0b.svg"
   },
   {
     "revision": "c1ad15b6c8d7d3b987149871b0e8d3b3",
@@ -120,15 +124,11 @@ self.__precacheManifest = [
     "url": "/static/media/git.7d664489.png"
   },
   {
-    "revision": "c7250eb4d5d8ee7900616a5b1ccf3c54",
-    "url": "/static/media/matlab.c5556ba3.png"
-  },
-  {
     "revision": "9901c69d13be17f33b4881d4869c8697",
     "url": "/static/media/icons.619fd11d.jpg"
   },
   {
-    "revision": "76e7a1bd0b41597b09df97c63c3c775a",
+    "revision": "5a373b89ae02712195ec31f087a92010",
     "url": "/index.html"
   }
 ];

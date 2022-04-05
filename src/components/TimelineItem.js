@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styles from "./TimelineItem.module.css";
 import React from "react";
 const TimelineItem = (props) => {

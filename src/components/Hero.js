@@ -48,7 +48,7 @@ const Hero = (props) => {
   const canvas = useRef(null);
   const handleClick = () => {
     saveAs(
-      "https://firebasestorage.googleapis.com/v0/b/my-prez.appspot.com/o/CV_BerleaDragos.pdf?alt=media&token=4b6712f2-bc79-4f0e-9fb1-41b911ba648e",
+      "https://firebasestorage.googleapis.com/v0/b/my-prez.appspot.com/o/CV_Dragos_Berlea_final.pdf?alt=media&token=4b6712f2-bc79-4f0e-9fb1-41b911ba648e",
       "CV.pdf"
     );
   };
@@ -58,18 +58,16 @@ const Hero = (props) => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.glass}></div>
       <canvas className={styles.canvas} ref={canvas} />{" "}
       <div className={styles["img-container"]}>
         <img src={Profile} alt="Profile" className={styles.profile}></img>
       </div>
       <div className={styles["text-container"]}>
         <div className={styles["text-style"]}>
-          {" "}
           <p>HELLO!</p>
-          <p>PLEASE HIRE ME!!</p>
+          <p>DRAGOS BERLEA'S PAGE</p>
           <div className={styles["button-container"]}>
-            <p>{"CHOOSE THE RED PILL: "}</p>{" "}
+            <p>{"FOR MORE INFORMATION: "}</p>{" "}
             <button className={styles.button} onClick={handleClick}>
               {"CV"}
             </button>

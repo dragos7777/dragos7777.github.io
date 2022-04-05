@@ -1,5 +1,4 @@
 import styles from "./TechStack.module.css";
-import { useEffect, useRef } from "react";
 import Stack from "./Stack";
 import React from "react";
 import JSLogo from "../assests/javascript.svg";
@@ -13,7 +12,7 @@ import REACT from "../assests/react.png";
 import SQL from "../assests/mysql.png";
 import GIT from "../assests/git.png";
 import SOLIDITY from "../assests/solidity.svg";
-import MATLAB from "../assests/matlab.png";
+import NEXT from "../assests/next.svg";
 
 const frontend = [
   { logo: JSLogo, text: "JAVA SCRIPT" },
@@ -31,7 +30,7 @@ const interests = [
   { logo: DJANGO, text: "DJANGO" },
   { logo: GIT, text: "GIT" },
   { logo: SOLIDITY, text: "SOLIDITY" },
-  { logo: MATLAB, text: "MATLAB" },
+  { logo: NEXT, text: "NEXT" },
 ];
 const TechStack = (props) => {
   let scrolledInto = false;

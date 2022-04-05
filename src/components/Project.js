@@ -13,7 +13,7 @@ const Project = (props) => {
             <a
               href="https://dragos7777.github.io/tetris/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <img src={Tetris} alt="tetris" className={styles["tetris-img"]} />
             </a>
@@ -28,7 +28,7 @@ const Project = (props) => {
             <a
               href="https://dragos7777.github.io/virtual-stonks/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <img src={Stonk} alt="stonks" className={styles["stonk-img"]} />
             </a>
@@ -36,7 +36,7 @@ const Project = (props) => {
           <div className={styles["stonk-text"]}>
             <p>
               {
-                "A web app that simmulates buying and selling stocks. Powerd by REACT with ROUTES and REDUX!"
+                "A web app that simmulates buying and selling stocks. Powerd by REACT with ROUTER and REDUX!"
               }
             </p>
           </div>

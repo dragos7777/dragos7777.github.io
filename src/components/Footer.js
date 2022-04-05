@@ -12,14 +12,14 @@ const Footer = React.forwardRef((props, ref) => {
           <a
             href="https://www.linkedin.com/in/dragos-berlea-teodor/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={LINKEDIN} alt="linkedin" className={styles.icon} />
           </a>
           <a
-            href="https://www.linkedin.com/in/dragos-berlea-teodor/"
+            href="https://github.com/dragos7777"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={GIT} alt="github" className={styles.icon} />
           </a>

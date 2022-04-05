@@ -47,7 +47,7 @@ function App() {
           title={"ABOUT"}
         >
           <Window title={"ABOUT ME"}>
-            <About scrollPoz={scrollPoz} />
+            <About scrollPoz={scrollPoz} scroll={scroll5} />
           </Window>
         </Section>
         <Section

@@ -16,7 +16,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 2;
+  z-index: 1;
   box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.4);
   filter: blur(5px);
 }
@@ -61,14 +61,15 @@
 .text-style {
   display: inline-block;
   font-size: 2rem;
-
+  position: relative;
   color: white;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   background-clip: text;
-
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/opacity/see-through */
   z-index: 4;
   padding: 0;
   margin: 0;
+  backdrop-filter: blur(3px);
 }
 
 .button-container {

@@ -131,6 +131,7 @@
 .link {
   color: var(--matrix-light-green);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .span {

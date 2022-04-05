@@ -8,20 +8,26 @@ import React from "react";
 
 const info = {
   id1: {
-    skills: [
-      "bulldsfdsfet1",
-      "budsf gfdgf dgfsdgfdsg dfgsgd fgdfsdf gsdgfdgfdsdff dsdfs llet1",
-      "bulledsffdsdsdgst1",
+    skills: ["C++, Python", "communication with clients", "training an intern"],
+    description: [
+      "worked on large and complex projects",
+      "automotive industry",
     ],
-    description: ["bullet1", "bullet1", "bullet1"],
   },
   id2: {
-    skills: ["bullet3", "bullet3", "bullet3"],
-    description: ["bullet2", "bullet2", "bullet2"],
+    skills: ["teamwork", "improved german and english"],
+    description: [
+      "interacted with people from different countries",
+      "developed my programming skills ",
+    ],
   },
   id3: {
-    skills: ["bullet3", "bullet3", "bullet3", "bullet3"],
-    description: ["bullet3", "bullet3", "bullet3", "bullet3"],
+    skills: ["C++,JAVA,Python", "Databases,GIT", "WEB Development"],
+    description: [
+      "mastered fundamentals of prgramming",
+      "sharpened communication skills",
+      "acquired my bachelors degree",
+    ],
   },
 };
 

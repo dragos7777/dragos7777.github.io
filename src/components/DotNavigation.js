@@ -23,7 +23,6 @@ const DotNavigation = (props) => {
           element.props.scroll();
 
           setIsActive(`nav-${element.props.id}`);
-          console.log(isActive);
         };
         const id = `nav-${element.props.id}`;
 

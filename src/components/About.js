@@ -34,7 +34,7 @@ const About = (props) => {
             className={styles.link}
             href="https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             problem
           </a>{" "}
@@ -74,7 +74,7 @@ const About = (props) => {
             className={styles.link}
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             matrix
           </a>

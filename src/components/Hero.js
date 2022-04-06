@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import styles from "./Hero.module.css";
-import Profile from "../assests/profile.png";
+import Profile from "../assests/CV_photo.png";
 import { saveAs } from "file-saver";
 import React from "react";
 const matrixCanvas = (canvas) => {

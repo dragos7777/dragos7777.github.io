@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.dbec7034.chunk.css",
-  "main.js": "/static/js/main.17ccb4e3.chunk.js",
-  "main.js.map": "/static/js/main.17ccb4e3.chunk.js.map",
+  "main.css": "/static/css/main.e6017c5e.chunk.css",
+  "main.js": "/static/js/main.d822fb41.chunk.js",
+  "main.js.map": "/static/js/main.d822fb41.chunk.js.map",
   "static/js/1.0e23339d.chunk.js": "/static/js/1.0e23339d.chunk.js",
   "static/js/1.0e23339d.chunk.js.map": "/static/js/1.0e23339d.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -16,7 +16,7 @@
   "static/media/bosch.svg": "/static/media/bosch.c1ad15b6.svg",
   "static/media/UBB.svg": "/static/media/UBB.ed7f14fa.svg",
   "static/media/windows.svg": "/static/media/windows.0b8d23e5.svg",
-  "static/media/index.css": "/static/media/Spotnikdemo-K7dpy.5d070eae.ttf",
+  "static/media/index.css": "/static/media/matrix.fb0576c1.ttf",
   "static/media/uk.b9a2ba74.png": "/static/media/uk.b9a2ba74.png",
   "static/media/germany.cc670a05.png": "/static/media/germany.cc670a05.png",
   "static/media/romania.223d404b.png": "/static/media/romania.223d404b.png",
@@ -33,8 +33,8 @@
   "static/media/mysql.9bbcc83a.png": "/static/media/mysql.9bbcc83a.png",
   "static/media/git.7d664489.png": "/static/media/git.7d664489.png",
   "static/media/icons.619fd11d.jpg": "/static/media/icons.619fd11d.jpg",
-  "static/css/main.dbec7034.chunk.css.map": "/static/css/main.dbec7034.chunk.css.map",
+  "static/css/main.e6017c5e.chunk.css.map": "/static/css/main.e6017c5e.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.dbe93e2705a22196a8f0de3b444d420b.js": "/precache-manifest.dbe93e2705a22196a8f0de3b444d420b.js",
+  "precache-manifest.3c8fdeac3bc6a0658fad4ed32c566689.js": "/precache-manifest.3c8fdeac3bc6a0658fad4ed32c566689.js",
   "service-worker.js": "/service-worker.js"
 }
